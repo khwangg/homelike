@@ -6,6 +6,7 @@
 
 
 #title{
+  margin-top: 60px;
   font-weight: 400;
   color: #000000;
   font-family: sans-serif;
@@ -13,6 +14,36 @@
   font-stretch: semi-expanded;
   letter-spacing: 3px;
 }
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #511572;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 200;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-kerning: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
 
 
 .grid-container {
@@ -33,7 +64,7 @@
   padding: 50px;
   text-align: center;
   font-weight: 200;
-  color: #0d331d;
+  color: #000000;
   font-family: sans-serif;
   font-kerning: none;
   letter-spacing: 0px;

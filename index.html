@@ -6,10 +6,18 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+
+    <div class="navbar">
+      <a href="#home">home</a>
+      <a href="#news">news</a>
+      <a href="#contact">contact</a>
+    </div>
+
   <div class="container">
     <h1 id="title">home esque</h1>
-
   </div>
+
+
 
   <div class="grid-container">
     <div class="item1">
@@ -42,6 +50,22 @@
     </div>
 
   </div>
+<button class="elevator-button">back upwards</button>
+ <script src="elevator.js" > </script>
+
+  <script>
+  // Elevator script included on the page, already.
+
+  window.onload = function() {
+    var elevator = new Elevator({
+      element: document.querySelector('.elevator-button'),
+      duration: 1000 // milliseconds
+    });
+  }
+  </script>
+
 
   </body>
+
+
 </html>
